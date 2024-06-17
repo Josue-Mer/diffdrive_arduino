@@ -10,7 +10,7 @@ struct Config
   std::string right_wheel_name = "right_wheel";
   float loop_rate = 30;
   std::string device = "/dev/serial/by-path/platform-fd500000.pcie-pci-0000:01:00.0-usb-0:1.3:1.0";
-  int baud_rate = 115200; //57600
+  int baud_rate = 115200;
   int timeout = 1000;
   int enc_counts_per_rev = 90;
 };
