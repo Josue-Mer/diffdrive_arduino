@@ -10,7 +10,7 @@ struct Config
   std::string right_wheel_name = "right_wheel";
   float loop_rate = 30;
   std::string device = "/dev/ttyACM0";
-  int baud_rate = 115200;
+  int baud_rate = 57600;
   int timeout = 1000;
   int enc_counts_per_rev = 90;
 };
